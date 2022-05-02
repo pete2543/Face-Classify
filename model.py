@@ -8,7 +8,7 @@ from keras.preprocessing import image
 import numpy as np
 
 app = Flask(__name__)
-
+ 
 dic = {0:'ยุโรป',1:'M2',2:'M3',3:'M4',4:'M5'}
 
 model = load_model('project.h5')
